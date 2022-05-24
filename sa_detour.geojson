@@ -1,0 +1,313 @@
+geojsonfeatures = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar road connector",
+        "desc": "The fully maintained Van Horne trail ends at Bar road forcing adventurers to use the St Andrews trail.",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "barroad",
+        "stroke": "#996633",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "bar.png",
+        "link": "https://goo.gl/maps/8ofRFNLS7Jo8SM4C8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-67.05449, 45.099215],
+          [-67.055247, 45.098102],
+          [-67.055756, 45.09759],
+          [-67.056465, 45.096879],
+          [-67.057022, 45.096265],
+          [-67.05883, 45.094285],
+          [-67.061668, 45.091202],
+          [-67.062038, 45.090835],
+          [-67.062435, 45.090482],
+          [-67.062993, 45.090088],
+          [-67.064994, 45.089183]
+        ]
+      },
+      "id": "d5a9ba7f-0993-43d4-b82d-7fd34168cdbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van Horne trail",
+        "desc": "Paved trail system maintained by the town of St Andrews, providing an outdoor recreation amenity within the municipal boundaries",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#0d47a1",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "vanhorne.png",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-67.058908, 45.094194],
+          [-67.056525, 45.092187],
+          [-67.054276, 45.090316],
+          [-67.055249, 45.08952],
+          [-67.055452, 45.089346],
+          [-67.052522, 45.087487]
+        ]
+      },
+      "id": "e8703693-c5ec-47d4-b191-d477b8a0a208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van Horne trail",
+        "desc": "Paved trail system maintained by the town of St Andrews, providing an outdoor recreation amenity within the municipal boundaries",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#0d47a1",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "vanhorne.png",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-67.043925, 45.069618],
+          [-67.04273, 45.070679],
+          [-67.042069, 45.071187],
+          [-67.041678, 45.07146],
+          [-67.041425, 45.071664],
+          [-67.04135, 45.071763],
+          [-67.041264, 45.071986],
+          [-67.041232, 45.072092],
+          [-67.041189, 45.072358],
+          [-67.041173, 45.072437],
+          [-67.041125, 45.072528],
+          [-67.040899, 45.073009],
+          [-67.040797, 45.073233],
+          [-67.040658, 45.073653],
+          [-67.040588, 45.07399],
+          [-67.040567, 45.07429],
+          [-67.040534, 45.074767],
+          [-67.040561, 45.075021],
+          [-67.04062, 45.075278],
+          [-67.040701, 45.075581],
+          [-67.040846, 45.075975],
+          [-67.041103, 45.076464],
+          [-67.041297, 45.076816],
+          [-67.041565, 45.077286],
+          [-67.041828, 45.077763],
+          [-67.04215, 45.078313],
+          [-67.04259, 45.07907],
+          [-67.043014, 45.079763],
+          [-67.043186, 45.080078],
+          [-67.043588, 45.080487],
+          [-67.043798, 45.080638],
+          [-67.044098, 45.08079],
+          [-67.044302, 45.080885],
+          [-67.044828, 45.081048],
+          [-67.046125, 45.081309],
+          [-67.04692, 45.081445],
+          [-67.048508, 45.082021],
+          [-67.049947, 45.082551],
+          [-67.050848, 45.082945]
+        ]
+      }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+          "name": "Katy's Cove connector",
+          "desc": "Gravel and paved connector between two improved sections.",
+          "tessellate": 1,
+          "shape": "Line",
+          "category": "vanhorne",
+          "stroke": "#996633",
+          "stroke-width": 2,
+          "stroke-opacity": 1,
+          "fill": null,
+          "fill-opacity": null,
+          "pic": "vanhorne.png",
+          "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-67.050848, 45.082945],
+                [-67.052373, 45.083627],
+                [-67.052695, 45.083779],
+                [-67.053682, 45.08396],
+                [-67.055013, 45.085127],
+                [-67.05424, 45.085703],
+                [-67.053425, 45.08643],
+                [-67.052522, 45.087487]
+            ]
+        },
+        "id": "73d7ff96-1075-415a-aa78-6b452e8385b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Historic Water street",
+        "desc": "Saint Andrews' main street and the Block House National Historic site.",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#009900",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "water.jpg",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-67.043925, 45.069618],
+              [-67.04535, 45.070255],
+              [-67.046675, 45.070865],
+              [-67.049217, 45.07202],
+              [-67.050483, 45.072596],
+              [-67.051748, 45.073187],
+              [-67.053064, 45.073782],
+              [-67.054367, 45.074369],
+              [-67.056878, 45.075509],
+              [-67.058138, 45.076093],
+              [-67.058761, 45.076377],
+              [-67.05942, 45.076672],
+              [-67.060678, 45.077241],
+              [-67.061099, 45.077263],
+              [-67.0614, 45.077279],
+              [-67.061598, 45.07732],
+              [-67.061942, 45.077419],
+              [-67.062306, 45.07757],
+              [-67.062739, 45.077718],
+              [-67.063004, 45.07776],
+              [-67.063293, 45.077779],
+              [-67.063519, 45.077775],
+              [-67.063759, 45.077801],
+              [-67.064254, 45.077957],
+              [-67.064511, 45.078063],
+              [-67.0648, 45.07815],
+              [-67.065219, 45.07829],
+              [-67.06545, 45.078339],
+              [-67.065669, 45.078385],
+              [-67.065906, 45.07843],
+              [-67.066169, 45.078457],
+              [-67.066598, 45.078498],
+              [-67.067075, 45.078525],
+              [-67.068127, 45.078551],
+              [-67.068803, 45.078616],
+              [-67.069656, 45.078805],
+              [-67.070283, 45.079006],
+              [-67.070525, 45.079434],
+              [-67.070648, 45.079646],
+              [-67.070747, 45.079862],
+              [-67.070981, 45.080343],
+              [-67.07124, 45.080786],
+              [-67.071383, 45.081002],
+              [-67.071501, 45.081112],
+              [-67.071648, 45.081218],
+              [-67.07193, 45.081373],
+              [-67.072131, 45.081491]
+            ]
+        },
+        "id": "62cdef80-4ec8-44a0-adb6-998d444f7a03"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golf course connector",
+        "desc": "Algonquin golf course and Marine Science drive connector.",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#996633",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "vanhorne.png",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-67.072131, 45.081491],
+                [-67.072809, 45.081707],
+                [-67.073238, 45.081866],
+                [-67.07348, 45.081976],
+                [-67.073748, 45.082142],
+                [-67.074382, 45.082926],
+                [-67.074988, 45.083676],
+                [-67.075235, 45.083975],
+                [-67.075965, 45.084835],
+                [-67.076239, 45.085165],
+                [-67.076453, 45.085415],
+                [-67.075375, 45.085949],
+                [-67.074543, 45.086343],
+                [-67.074242, 45.086513],
+                [-67.07363, 45.08699],
+                [-67.072927, 45.087558],
+                [-67.072471, 45.08793],
+                [-67.072208, 45.088134],
+                [-67.071875, 45.088346],
+                [-67.071736, 45.088426],
+                [-67.071263, 45.088596],
+                [-67.070952, 45.088721],
+                [-67.07136, 45.089233],
+                [-67.070909, 45.089411],
+                [-67.069787, 45.089876],
+                [-67.068977, 45.090217],
+                [-67.068011, 45.090615],
+                [-67.067088, 45.090997],
+                [-67.066326, 45.091319],
+                [-67.065971, 45.090747],
+                [-67.065376, 45.089801],
+                [-67.065005, 45.089172]
+            ]
+        },
+        "id": "c205dd79-134a-4325-9dda-57552e059b7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wharf",
+        "desc": "Saint Andrews wharf.",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#009900",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "wharf_th.jpg",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-67.05307, 45.073771],
+              [-67.053402, 45.073346],
+              [-67.053585, 45.073021],
+              [-67.054882, 45.071278],
+              [-67.054571, 45.071141]
+            ]
+        },
+        "id": "9999"
+    }
+  ]
+}
