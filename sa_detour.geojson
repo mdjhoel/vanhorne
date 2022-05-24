@@ -5,7 +5,7 @@ geojsonfeatures = {
       "type": "Feature",
       "properties": {
         "name": "Bar road connector",
-        "desc": "The fully maintained Van Horne trail ends at Bar road forcing adventurers to use the St Andrews trail.",
+        "desc": "The paved Van Horne trail ends at Bar road. A bike lane connects Mowat drive (highway 127 to St. John) to Ministers Island.",
         "tessellate": 1,
         "shape": "Line",
         "category": "barroad",
@@ -138,7 +138,7 @@ geojsonfeatures = {
           "stroke-opacity": 1,
           "fill": null,
           "fill-opacity": null,
-          "pic": "vanhorne.png",
+          "pic": "katy_th.jpg",
           "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
         },
         "geometry": {
@@ -169,7 +169,7 @@ geojsonfeatures = {
         "stroke-opacity": 1,
         "fill": null,
         "fill-opacity": null,
-        "pic": "water.jpg",
+        "pic": "water_th.jpg",
         "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
       },
         "geometry": {
@@ -230,7 +230,7 @@ geojsonfeatures = {
       "type": "Feature",
       "properties": {
         "name": "Golf course connector",
-        "desc": "Algonquin golf course and Marine Science drive connector.",
+        "desc": "Algonquin golf course and Marine Science drive connector to Bar road.",
         "tessellate": 1,
         "shape": "Line",
         "category": "vanhorne",
@@ -239,7 +239,7 @@ geojsonfeatures = {
         "stroke-opacity": 1,
         "fill": null,
         "fill-opacity": null,
-        "pic": "vanhorne.png",
+        "pic": "golf_th.jpg",
         "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
       },
         "geometry": {
