@@ -24,6 +24,10 @@
         <meta name="google-site-verification" content="euQwANcSNYJK7LWiaDJyqOyGWxOXXaufRjCJffAfmS0" />
 
         <title>Van Horne Trail</title>
+
+        <style>
+          .ppcont{width:320px;}
+        </style>
     </head>
 
     <body>
@@ -31,6 +35,7 @@
             <div class="nav-wrapper blue darken-4">
               <img src='shield.svg' style='width:50; margin: 10px;'><span class="brand-logo">Van Horne Trail</span>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="suggest.html">Hints</a></li>
                 <li><a href="about.html">About</a></li>
               </ul>
             </div>
@@ -100,7 +105,18 @@
                         <span style="margin-bottom: 5px;">
                             <b>Historic Water street</b>
                         </span>
-                        <span >
+                    </div>
+                    <div class="col s12 m6">
+                        <span>
+                            <svg height="25" width="30">
+                              <polyline points="5,10 15,10 15,20 25,20"
+                              style="fill:white;stroke:#f2b90d;stroke-width:4; stroke-dasharray:5,5" />
+                            </svg>
+                        </span>
+                        <span style="margin-bottom: 5px;">
+                            <b>Other routes and trails</b>
+                        </span>
+                        <span>
                           <p style="padding-top:15px">Join us on <a href="https://www.facebook.com/SaintAndrewsVanHorneTrail" target="_blank">Facebook</a> for recent photos and commentary.</p>
                         </span>
                     </div>
@@ -120,6 +136,7 @@
         });
 
         map();
+
         function map() {
             // Set up the world map
 
@@ -129,31 +146,32 @@
 
             // https://carto.com/help/building-maps/basemap-list/
             carto = new L.TileLayer(cartocdn);
-            map.setView([45.084,-67.06],14.1); // centered on SA lat, long
+            map.setView([45.089,-67.06],13.4); // centered on SA lat, long
             map.addLayer(carto);
 
             L.geoJSON(geojsonfeatures, {style: colorIt, onEachFeature: bindIt} ).addTo(map);
 
             function colorIt(feature) {
-                return {color: feature.properties.stroke};
+                return {color: feature.properties.stroke, weight: feature.properties.weight, dashArray: feature.properties.dashed};
             }
 
             function bindIt(feature, layer) {
-                layer.bindPopup("<h5>" + feature.properties.name + "</h5><p>" + feature.properties.desc + "</p><br><a href='" + feature.properties.link + "' target='_blank'><img src='photos/" + feature.properties.pic + "'></a>");
+              var popcontent = "<h5>" + feature.properties.name + "</h5><p>" + feature.properties.desc + "</p><br><a href='" + feature.properties.link + "' target='_blank'><img src='photos/" + feature.properties.pic + "'></a>"
+              layer.bindPopup(popcontent,{minWidth:320});
             }
 
             // Loop to write out circles from data.js
             //conf_x_factor = 5;
             for (i=0;i<data.length;i++) {
                 rating = data[i].rating;
-                radius = 30; ratingcolor = "#33cc33";
+                radius = 50; ratingcolor = "#33cc33";
                 if (rating == 1) {
                     radius = 50; ratingcolor = "#ff00ff";
                 }
                 if (rating == 2) {
                     radius = 90; ratingcolor = "#ff0000";
                 }
-                L.circle(data[i]['coordinates'],{color:ratingcolor,fillColor:ratingcolor,fillOpacity:0.5,radius: radius}).addTo(map).bindPopup("<h5>" + data[i]['name'] + "</h5><p>" + data[i]['desc'] + "</p><br><a href='photos/" + data[i]['photo'] + ".jpg' target='_blank'><img src='photos/" + data[i]['photo'] + "_th.jpg'></a>");
+                L.circle(data[i]['coordinates'],{color:'green',fillColor:'#33cc33',fillOpacity:0.5,radius: radius}).addTo(map).bindPopup("<h5>" + data[i]['name'] + "</h5><p>" + data[i]['desc'] + "</p><br><a href='photos/" + data[i]['photo'] + ".jpg' target='_blank'><img src='photos/" + data[i]['photo'] + "_th.jpg'></a>");
             }
         }
 
