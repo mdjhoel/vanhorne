@@ -1,4 +1,22 @@
 data = [{
+	"name": 'Crosswalk at Bar road and Mowat Drive',
+	"desc": "Bar road and Mowat Drive are connector streets with generous shoulders.",
+	"coordinates": [45.089141609616085, -67.06505298614502],
+	"photo": "xwalk",
+	"rating": "0"
+}, {
+	"name": 'Towards Ministers Island',
+	"desc": "Turn right off the paved trail and head down the hill to the bar. At low tide you can cross.",
+	"coordinates": [45.09433377593718, -67.0587819814682],
+	"photo": "bareast",
+	"rating": "0"
+}, {
+	"name": 'Cornelia and Mowat',
+	"desc": "This is the busiest traffic intersection of the trail. Look both ways!",
+	"coordinates": [45.0913268458189, -67.06638872623444],
+	"photo": "cornelia",
+	"rating": "0"
+}, {
 	"name": 'Bar road entrance',
 	"desc": "The entrance to the paved section of the Van Horne trail. Don't feed the deer!",
 	"coordinates": [45.09428, -67.05881],
@@ -45,6 +63,18 @@ data = [{
 	"desc": "Check out the waterfront, Water street, the Algonquin Hotel, the town and Chamcook Lake.",
 	"coordinates": [45.0707298117314, -67.05240688700147],
 	"photo": "water",
+	"rating": "0"
+}, {
+	"name": 'Tools on Water street',
+	"desc": "Need to repair your bike?. Use our free tools at Water and William streets!",
+	"coordinates": [45.07432751868502, -67.05436170101164],
+	"photo": "tools",
+	"rating": "0"
+}, {
+	"name": 'Historic Water street',
+	"desc": "Slow down and enjoy the sites and sounds of our main street. ",
+	"coordinates": [45.07470161133389, -67.05516904592514],
+	"photo": "streetscape",
 	"rating": "0"
 }
 ]
