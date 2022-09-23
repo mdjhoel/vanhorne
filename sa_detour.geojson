@@ -452,6 +452,73 @@ geojsonfeatures = {
           ]
         ]
       }
+    },
+    {
+    "type": "Feature",
+    "properties": {
+            "name": "Trestle",
+            "desc": "This spur trail is a dead end but provides an excellent view of Ministers island and Katys Cove.",
+            "tessellate": 1,
+            "shape": "Line",
+            "category": "trestle",
+            "stroke": "#f2b90d",
+            "dashed":"5,5",
+            "weight": 2,
+            "stroke-opacity": 1,
+            "fill": null,
+            "fill-opacity": null,
+            "pic": "peninsula_th.jpg",
+            "link": "https://standrewsbythesea.ca/"
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.04337537288666,
+            45.08033164667794
+          ],
+          [
+            -67.04370260238647,
+            45.080759677136626
+          ],
+          [
+            -67.04407811164856,
+            45.08139603507683
+          ],
+          [
+            -67.04453408718109,
+            45.08222556246422
+          ],
+          [
+            -67.04479694366455,
+            45.08277478629896
+          ],
+          [
+            -67.04505443572998,
+            45.0834982386025
+          ],
+          [
+            -67.04535484313965,
+            45.0845360547049
+          ],
+          [
+            -67.0456337928772,
+            45.0854867383111
+          ],
+          [
+            -67.04575181007385,
+            45.08586927984003
+          ],
+          [
+            -67.04603612422943,
+            45.08680479140005
+          ],
+          [
+            -67.0460844039917,
+            45.086982801986146
+          ]
+        ]
+      }
     }
   ]
 }
