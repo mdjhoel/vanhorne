@@ -155,8 +155,14 @@ data = [{
 	"photo": "washrooms",
 	"rating": "0"
 }, {
-	"name": 'Keep left',
-	"desc": "Traveling north (from town) the trail forks. Turn left to continue on the trail loop, right to go to the (dead end) Ministers Island lookout.",
+	"name": 'Old railway trestle (Ministers island lookout)',
+	"desc": "Looking north, you can see the impressive view of Ministers island on your right. Katys Cove is on the left.",
+	"coordinates": [45.08456135305303, -67.04536386814289],
+	"photo": "trestle",
+	"rating": "0"
+}, {
+	"name": 'Keep left for loop, right for trestle',
+	"desc": "Traveling north (from town) the trail forks. Turn left to continue on the trail loop, right to go to the (dead end old railway trestle) Ministers Island lookout.",
 	"coordinates": [45.08067845815867, -67.0436936572087],
 	"photo": "left",
 	"rating": "0"
