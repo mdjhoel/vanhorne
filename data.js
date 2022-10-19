@@ -125,10 +125,22 @@ data = [{
 	"photo": "nhs",
 	"rating": "0"
 }, {
-	"name": 'Rejoin paved trail',
-	"desc": "The Cemetary road connector ends at the ... cemetary. Turn north onto trail.",
-	"coordinates": [45.08763610337506, -67.05249908331722],
-	"photo": "cemetary",
+	"name": 'Sports field path',
+	"desc": "Looking towards the sports fields down the paved trail added to the Van Horne trail. This section cuts through the playing fields.",
+	"coordinates": [45.08801298001523,-67.05304741859436],
+	"photo": "fields",
+	"rating": "0"
+}, {
+	"name": 'Single track',
+	"desc": "Looking south on a scenic but narrow path linking Katys Cove to playing fields trail section.",
+	"coordinates": [45.0852,-67.0543],
+	"photo": "path",
+	"rating": "0"
+}, {
+	"name": 'Playing fields section',
+	"desc": "Cross Cemetary Road to the paved trail to a look at the town sports fields and continue on the trail. Look both ways!",
+	"coordinates": [45.0854,-67.0543],
+	"photo": "newpath",
 	"rating": "0"
 }, {
 	"name": 'One of Canadas great streets',
@@ -160,7 +172,7 @@ data = [{
 	"coordinates": [45.08456135305303, -67.04536386814289],
 	"photo": "trestle",
 	"rating": "0"
-}, {
+},{
 	"name": 'Keep left for loop, right for trestle',
 	"desc": "Traveling north (from town) the trail forks. Turn left to continue on the trail loop, right to go to the (dead end old railway trestle) Ministers Island lookout.",
 	"coordinates": [45.08067845815867, -67.0436936572087],
