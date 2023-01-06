@@ -412,8 +412,8 @@ geojsonfeatures = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Golf course connector",
-        "desc": "Algonquin golf course and Marine Science drive connector to Bar road.",
+        "name": "Marine Science connector",
+        "desc": "Marine Science drive and Cornelia connector to Bar road.",
         "tessellate": 1,
         "shape": "Line",
         "category": "vanhorne",
@@ -422,18 +422,13 @@ geojsonfeatures = {
         "stroke-opacity": 1,
         "fill": null,
         "fill-opacity": null,
-        "pic": "golf_th.jpg",
+        "pic": "marine_th.png",
         "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
       },
         "geometry": {
             "type": "LineString",
             "coordinates": [
-                [-67.072131, 45.081491],
-                [-67.072809, 45.081707],
-                [-67.073238, 45.081866],
-                [-67.07348, 45.081976],
-                [-67.073748, 45.082142],
-                [-67.074382, 45.082926],
+
                 [-67.074988, 45.083676],
                 [-67.075235, 45.083975],
                 [-67.075965, 45.084835],
@@ -460,6 +455,36 @@ geojsonfeatures = {
                 [-67.065971, 45.090747],
                 [-67.065376, 45.089801],
                 [-67.065005, 45.089172]
+            ]
+        },
+        "id": "c205dd79-134a-4325-9dda-57552e059b7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golf course hill",
+        "desc": "Travel through the Algonquin golf course.",
+        "tessellate": 1,
+        "shape": "Line",
+        "category": "vanhorne",
+        "stroke": "#0d47a1",
+        "weight": 4,
+        "stroke-opacity": 1,
+        "fill": null,
+        "fill-opacity": null,
+        "pic": "golf_th.jpg",
+        "link": "http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html"
+      },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-67.072131, 45.081491],
+                [-67.072809, 45.081707],
+                [-67.073238, 45.081866],
+                [-67.07348, 45.081976],
+                [-67.073748, 45.082142],
+                [-67.074382, 45.082926],
+                [-67.074988, 45.083676]
             ]
         },
         "id": "c205dd79-134a-4325-9dda-57552e059b7c"
