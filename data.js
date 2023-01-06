@@ -155,6 +155,12 @@ data = [{
 	"photo": "celtic",
 	"rating": "0"
 }, {
+	"name": 'Indian point beach',
+	"desc": "Excellent rocky beach, great for those who enjoy searching for unique rocks or shells & sea glass. Picnic tables and green space as well.",
+	"coordinates": [45.07321870562282, -67.03792257290341],
+	"photo": "indian",
+	"rating": "0"
+}, {
 	"name": 'Pagan point trail section',
 	"desc": "This paved section of the trail takes you along the Pagan Point Nature Preserve, providing beautiful views of the coastal marsh and Passamaquoddy Bay.",
 	"coordinates": [45.07456619556769, -67.04047504361094],
